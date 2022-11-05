@@ -23,20 +23,7 @@ body::before {
   z-index: -1;
 }
 
-/* only this query ratio for bg img responisve */
-@media (max-width: 480px){
-  body::before {
-    content: "";
-    position: fixed;
-    background: #040404 url("../img/mdrony-bg.png") top center no-repeat;
-    background-size: cover;
-    left: -90%;
-    right: 0;
-    top: 0;
-    height: 100vh;
-    z-index: -1;
-  }
-}
+
 
 
 @media (min-width: 1024px) {
